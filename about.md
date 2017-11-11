@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-We are a couple currently traveling around Canada.
+Welcome to our Blog. We are a couple currently traveling around Canada.
