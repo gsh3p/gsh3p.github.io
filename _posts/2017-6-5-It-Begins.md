@@ -15,4 +15,4 @@ Throughout this move we have only confirmed that we have amazing friends and fam
 
 Oh well, here goes to a new adventure…
 
-![sunrise and clouds from plane window]({{ site.url }}/images/sunrise-and-clouds.jpg)
+![sunrise and clouds from plane window]({{ site.baseurl }}/images/sunrise-and-clouds.jpg)
