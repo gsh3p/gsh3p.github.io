@@ -1,9 +1,3 @@
-.container {
-  //margin: 0 auto;
-  //max-width: 740px;
-  //padding: 0 15px;
-}
-
 .site-name {
   color: $darkGray;
   cursor: pointer;
@@ -25,7 +19,7 @@
   color: #333 !important;
   text-align: center;
   text-transform: uppercase;
-  
+
   &::after {
     background: $red;
     content: "";
