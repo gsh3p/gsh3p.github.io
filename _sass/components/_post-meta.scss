@@ -1,0 +1,30 @@
+//
+// Post meta
+//
+
+.post-title {
+  color: #333;
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media screen and (min-width: $desktop){
+    font-size: 30px;
+  }
+
+  &::after {
+    background: $red;
+    content: "";
+    display: block;
+    height: 3px;
+    margin: 12px auto;
+    width: 60px;
+  }
+}
+
+.post-date {
+  color: $gray;
+  font-size: 14px;
+  margin: 0 0 10px;
+  text-align: center;
+}

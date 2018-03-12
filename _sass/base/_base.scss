@@ -1,0 +1,45 @@
+//
+// Base Styles
+//
+
+html {
+  font-size: 100%;
+}
+
+body {
+	background: $white;
+  color: $darkGray;
+  font: 18px $helvetica;
+  line-height: 1.6;
+}
+
+//
+// Utilies
+//
+
+.container {
+
+  @media screen and (min-width: $tablet){
+    padding: 0 15px;
+  }
+
+  @media screen and (min-width: $desktop){
+    margin: 0 auto;
+    width: 960px;
+  }
+
+  @media screen and (min-width: $desktop-large){
+    width: 1200px;
+  }
+}
+
+
+.post__thin {
+  margin: 0 auto;
+  max-width: 90%;
+  width: 700px;
+
+  @media screen and (min-width: $tablet){
+    max-width: 100%;
+  }
+}

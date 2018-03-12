@@ -1,0 +1,51 @@
+//
+// Header
+//
+
+.main-header {
+  border-bottom: 1px solid $lightGray;
+  margin-bottom: 50px;
+  padding: 20px 0;
+  text-align: center;
+
+  @media screen and (min-width: $tablet){
+    text-align: left;
+  }
+}
+
+.site-info {
+  float: none;
+  display: block;
+  margin: 0 auto;
+
+  @media screen and (min-width: $tablet){
+    float: left;
+  }
+}
+
+.site-name {
+  color: $darkGray;
+  cursor: pointer;
+  font-family: $helveticaNeue;
+  font-weight: 300;
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+
+  @media screen and (min-width: $tablet){
+    font-size: 28px;
+    letter-spacing: 1px;
+  }
+}
+
+.site-description {
+  color: $gray;
+  font-size: 13px;
+  margin: 3px 0;
+
+  @media screen and (min-width: $tablet){
+    font-size: 16px;
+    margin: -5px 0 0 0;
+  }
+}

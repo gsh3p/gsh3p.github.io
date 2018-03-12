@@ -1,0 +1,31 @@
+//
+// Masonry Gallery Styles
+//
+
+.masonry {
+  column-count: 1;
+  column-gap: 0;
+
+  @media screen and (min-width: $narrow-tablet){
+    column-count: 2;
+  }
+
+  .item {
+    box-sizing: border-box;
+    break-inside: avoid;
+    padding: 0;
+
+    @media screen and (min-width: $narrow-tablet){
+      padding: 5px;
+    }
+
+    .item__content {
+      img:hover {
+        cursor: pointer;
+        opacity: 0.8;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+        filter: alpha(opacity=80);
+      }
+    }
+  }
+}
