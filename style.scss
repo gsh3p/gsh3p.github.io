@@ -7,29 +7,28 @@
 @import
   'abstracts/variables';
 
-// 2. Vendors
-
-// 3. Base stuff
+// 2. Base stuff
 @import
   'base/reset',
   'base/base',
   'base/typo';
 
-// 4. Layout-related sections
+// 3. Layout-related sections
 @import
   'layout/footer',
   'layout/header',
   'layout/nav';
 
-// 5. Components
+// 4. Components
 @import
   'components/masonry-gallery',
   'components/post-meta';
 
-// 6. Page-specific styles
+// 5. Page-specific styles
 
-// 7. Themes
+// 6. Themes
 
-// 8. Vendors
+// 7. Vendors
 @import
+  'vendors/highlights',
   'vendors/svg-icons';
