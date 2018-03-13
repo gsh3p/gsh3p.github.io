@@ -9,8 +9,10 @@ html {
 body {
 	background: $white;
   color: $darkGray;
-  font: 18px $helvetica;
+  font-family: $opensans;
+  font-size: 16px;
   line-height: 1.6;
+  font-weight: 300;
 }
 
 //
