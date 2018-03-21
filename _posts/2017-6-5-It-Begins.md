@@ -3,7 +3,7 @@ layout: post
 title: It Begins...
 ---
 
-Having time to process the last couple of days of our move to Canada we realised that we may have been a tad bit disorganised and chaotic.
+<p class="article-intro">Having time to process the last couple of days of our move to Canada we realised that we may have been a tad bit disorganised and chaotic.</p>
 
 Looking back we probably should have started packing our house 3 weeks before we left to move to our friends, it may have been a good idea for the both of us to only have a suitcase by that point, and for a certain Ford Festiva vehicle to have already been sold…
 

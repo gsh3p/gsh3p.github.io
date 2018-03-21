@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<article class="post post__thin">
+<article class="post post--thin">
   <h1 class="post-title">{{ page.title }}</h1>
 
   <div class="post-date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    Published <time>{{ page.date | date: "%B %e, %Y" }}</time>
   </div>
 
   <div class="article-content">
