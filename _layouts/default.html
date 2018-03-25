@@ -4,31 +4,13 @@
 
   <body class="{{ page.layout }}">
 
-  <header class="main-header clearfix">
-    <div class="container">
-        <div class="site-info">
-          <p class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></p>
-          <p class="site-description">{{ site.description }}</p>
-        </div>
-
-        <nav class="main-nav" id="main-nav">
-          <a href="{{ site.baseurl }}/">Blog</a>
-          <a href="{{ site.baseurl }}/about">About</a>
-        </nav>
-      </div>
-  </header>
-
+  {% include header.html %}
 
   <div id="main" role="main" class="container">
     {{ content }}
   </div>
-
-  <footer class="main-footer">
-    <div class="container">
-      &copy; 2017 Travel Across Canada. All rights reserved.
-    </div>
-  </footer>
-
-    {% include analytics.html %}
+  
+  {% include footer.html %}
+  {% include analytics.html %}
   </body>
 </html>
