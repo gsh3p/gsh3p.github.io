@@ -1,0 +1,15 @@
+//
+// 2 Column Gallery Styles
+//
+
+.gallery-2-col {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  img {
+    height: auto;
+    width: 49.5%;
+  }
+}
