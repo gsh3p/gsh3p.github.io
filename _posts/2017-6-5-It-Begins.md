@@ -1,6 +1,7 @@
 ---
 layout: post
 title: It Begins...
+categories: Travel
 ---
 
 <p class="article-intro">Having time to process the last couple of days of our move to Canada we realised that we may have been a tad bit disorganised and chaotic.</p>
