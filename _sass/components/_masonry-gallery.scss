@@ -6,10 +6,6 @@
   column-count: 2;
   column-gap: 0;
 
-  @media screen and (min-width: $narrow-tablet){
-    column-count: 3;
-  }
-
   .item {
     box-sizing: border-box;
     break-inside: avoid;
