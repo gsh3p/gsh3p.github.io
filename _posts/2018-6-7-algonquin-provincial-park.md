@@ -6,7 +6,7 @@ categories: Travel
 
 <p class="article-intro">We were lucky enough share this trip with some good friends. Who are not only great fun but also super organised and pretty much organised most of this trip (Thank you!!).</p>
 
-We stayed in a cottage in Dorset which was 40 minutes outside of Algonquin Provincial Park. The cottage itself was like a dream. A wooden cabin, fire pit, a jetty...all over looking Lake Kawagawa. We spent our afternoon kayaking and canoeing on the lake (the boys managed to sneak a beer on their kayaks) and a night drinking beers/wine around a fire pit.
+We stayed in a cottage in Dorset which was 40 minutes outside of Algonquin Provincial Park. The cottage itself was like a dream. A wooden cabin, fire pit, a jetty...all over looking Lake Kawagama. We spent our afternoon kayaking and canoeing on the lake (the boys managed to sneak a beer on their kayaks) and a night drinking beers/wine around a fire pit.
 
 Our first day we quickly ate breakie and headed to Algonquin Provincial Park. We first stopped off in the park centre to see where the latest moose, bears, loons and other animals were spotted. We then drove along highway 60, eyes peeled for animals.
 
