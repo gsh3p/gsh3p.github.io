@@ -30,8 +30,8 @@ gulp.task('build:styles:main', function() {
         loadPath: [paths.sassFiles]
     }).pipe(postcss([ autoprefixer({ browsers: ['last 2 versions'] }) ]))
         .pipe(cleancss())
-        .pipe(gulp.dest(paths.jekyllCssFiles))
-        .pipe(gulp.dest(paths.siteCssFiles))
+        .pipe(gulp.dest(paths.jekyllDir))
+        .pipe(gulp.dest(paths.siteDir))
         .pipe(browserSync.stream())
         .on('error', gutil.log);
 });
