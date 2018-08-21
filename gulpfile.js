@@ -41,8 +41,8 @@ gulp.task('build:styles', ['build:styles:main']);
 
 // Deletes CSS.
 gulp.task('clean:styles', function(callback) {
-    del([paths.jekyllCssFiles + 'style.css',
-        paths.siteCssFiles + 'style.css'
+    del([paths.jekyllDir + 'style.css',
+        paths.siteDir + 'style.css'
     ]);
     callback();
 });
