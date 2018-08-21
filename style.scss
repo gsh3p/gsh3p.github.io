@@ -1,5 +1,4 @@
----
----
+
 
 @charset 'UTF-8';
 
@@ -17,7 +16,8 @@
 @import
   'layout/footer',
   'layout/header',
-  'layout/nav';
+  'layout/nav',
+  'layout/post-nav';
 
 // 4. Components
 @import
