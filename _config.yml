@@ -76,8 +76,8 @@ kramdown:
     css_class: 'highlight'
 
 # Set the Sass partials directory, as we're using @imports
-sass:
-  style: :compressed # You might prefer to minify using :compressed
+# sass:
+#   style: :compressed # You might prefer to minify using :compressed
 
 # Use the following plug-ins
 gems:
