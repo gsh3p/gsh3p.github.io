@@ -10,9 +10,11 @@ var autoprefixer = require('autoprefixer'),
     gulp         = require('gulp'),
     gutil        = require('gulp-util'),
     imagemin     = require('gulp-imagemin'),
+    mozjpeg      = require('imagemin-mozjpeg'),
     notify       = require('gulp-notify'),
     postcss      = require('gulp-postcss'),
     rename       = require('gulp-rename'),
+    responsive   = require('gulp-responsive'),
     run          = require('gulp-run'),
     runSequence  = require('run-sequence'),
     sass         = require('gulp-ruby-sass'),
@@ -68,7 +70,7 @@ gulp.task('clean:jekyll', function(callback) {
 gulp.task('clean', ['clean:jekyll',
     'clean:styles']);
 
-// Builds site anew.
+// Builds site a new.
 gulp.task('build', function(callback) {
     runSequence('clean',
         ['build:styles'],
@@ -89,7 +91,6 @@ gulp.task('build:scripts:watch', ['build:scripts'], function(callback) {
     browserSync.reload();
     callback();
 });
-
 
 
 // Static Server + watching files.
@@ -137,3 +138,46 @@ gulp.task('serve', ['build'], function() {
     // Watch favicon.png.
     gulp.watch('favicon.png', ['build:jekyll:watch']);
 });
+
+// Tasks to optimise images
+
+// resize images using gulp responsive and copies generated image files to tempfolder (RESPONSIVE_IMAGES)
+gulp.task('resize:images', function() {
+    return gulp.src(paths.imageFilesGlob)
+    .pipe(responsive({
+      '*': [{
+        width: 480,
+        rename: {suffix: '-sm'},
+      }, {
+        width: 480 * 2,
+        rename: {suffix: '-sm-2x'},
+      }, {
+        width: 700,
+      }, {
+        width: 700 * 2,
+        rename: {suffix: '-2x'},
+      }],
+    }, {
+      silent: true      // Don't spam the console
+    }))
+    .pipe(gulp.dest('./RESPONSIVE_IMAGES')) // using temp folder for now
+});
+
+// .pipe(gulp.dest(paths.jekyllImageFiles))
+//     .pipe(gulp.dest(paths.siteImageFiles))
+//     .pipe(browserSync.stream());
+
+// runs resize:images task and then compresses images
+gulp.task('build:images', ['resize:images'], function() {
+  gulp.src(['./RESPONSIVE_IMAGES/*.{jpg,png,gif,svg}'])
+    // Optimise/compress images
+    .pipe(imagemin([
+      imagemin.gifsicle(),
+      imagemin.optipng(),
+      imagemin.svgo(),
+      mozjpeg(),
+    ]))
+    .pipe(gulp.dest('./RESPONSIVE_IMAGES'))
+});
+
+// FUTURE -- add clean task to delete images from testfolder

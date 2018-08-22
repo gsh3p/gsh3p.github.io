@@ -9,3 +9,6 @@ Gemfile.lock
 node_modules
 npm-debug.log
 assets
+
+# ignore temp image folder used by gulp to optimise images
+RESPONSIVE_IMAGES
