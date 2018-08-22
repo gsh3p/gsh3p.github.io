@@ -10,5 +10,8 @@ node_modules
 npm-debug.log
 assets
 
+# exclude full size original/source images from repo
+_assets/img/
+
 # ignore temp image folder used by gulp to optimise images
 RESPONSIVE_IMAGES
