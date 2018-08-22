@@ -146,15 +146,23 @@ gulp.task('resize:images', function() {
     return gulp.src(paths.imageFilesGlob)
     .pipe(responsive({
       '*': [{
+        crop: 'south',
+        height: 319,
         width: 480,
         rename: {suffix: '-sm'},
       }, {
-        width: 480 * 2,
+        crop: 'south',
+        height: 639,
+        width: 960,
         rename: {suffix: '-sm-2x'},
       }, {
+        crop: 'south',
+        height: 466,
         width: 700,
       }, {
-        width: 700 * 2,
+        crop:'south',
+        height: 932,
+        width: 1400,
         rename: {suffix: '-2x'},
       }],
     }, {
