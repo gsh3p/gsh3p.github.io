@@ -26,7 +26,7 @@ var paths = require('./_assets/gulp_config/paths');
 // Uses Sass compiler to process styles, adds vendor prefixes, minifies, then
 // outputs file to the appropriate location.
 gulp.task('build:styles:main', function() {
-    return sass(paths.sassFiles + '/style.scss', {
+    return sass(paths.sassFiles + '/main.scss', {
         style: 'compressed',
         trace: true,
         loadPath: [paths.sassFiles]
@@ -171,7 +171,8 @@ gulp.task('resize:images', function() {
     .pipe(gulp.dest('./RESPONSIVE_IMAGES')) // using temp folder for now
 });
 
-// .pipe(gulp.dest(paths.jekyllImageFiles))
+// possibly update with these in future if image directory needs to be changed
+//     .pipe(gulp.dest(paths.jekyllImageFiles))
 //     .pipe(gulp.dest(paths.siteImageFiles))
 //     .pipe(browserSync.stream());
 
@@ -188,4 +189,4 @@ gulp.task('build:images', ['resize:images'], function() {
     .pipe(gulp.dest('./RESPONSIVE_IMAGES'))
 });
 
-// FUTURE -- add clean task to delete images from testfolder
+// FUTURE ?? -- add clean task to delete images from testfolder
