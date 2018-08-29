@@ -52,7 +52,7 @@ gulp.task('build:styles:critical', function() {
 });
 
 // Builds all styles.
-gulp.task('build:styles', ['build:styles:main']);
+gulp.task('build:styles', ['build:styles:main','build:styles:critical']);
 
 // Deletes CSS.
 gulp.task('clean:styles', function(callback) {
