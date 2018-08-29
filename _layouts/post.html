@@ -13,7 +13,19 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="post-nav clearfix">
+    {% if page.previous.url %}
+    <div class="nav-previous">
+      <a class="prev" href="{{page.previous.url}}">{{page.previous.title}}</a>
+    </div>
+    {% endif %}
 
+    {% if page.next.url %}
+    <div class="nav-next">
+      <a class="next" href="{{page.next.url}}">{{page.next.title}}</a>
+    </div>
+    {% endif %}
+  </div>
 
   {% include disqus.html %}
 </article>
