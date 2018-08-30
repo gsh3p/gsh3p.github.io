@@ -4,7 +4,7 @@ title: Tobermory and the Bruce Peninsula
 categories: Travel
 ---
 
-<p class="article-intro">Tobermory is a small harbour town located about 4 hours north of Toronto, situated on the Bruce Peninsula. One side is surrounded by the Great Lake Huron, the other by Georgian Bay.</p>
+Tobermory is a small harbour town located about 4 hours north of Toronto, situated on the Bruce Peninsula. One side is surrounded by the Great Lake Huron, the other by Georgian Bay.
 
 It is on the Fathom Five National Marine Park and the Bruce Peninsula National Park, which also features the Bruce trail. A famous trail in Ontario, which extends all the way down to Niagara. We had previously hiked along parts of this when we were living in Barrie.
 

@@ -4,7 +4,7 @@ title: Algonquin Provincial Park
 categories: Travel
 ---
 
-<p class="article-intro">We were lucky enough share this trip with some good friends. Who are not only great fun but also super organised and pretty much organised most of this trip (Thank you!!).</p>
+We were lucky enough share this trip with some good friends. Who are not only great fun but also super organised and pretty much organised most of this trip (Thank you!!).
 
 We stayed in a cottage in Dorset which was 40 minutes outside of Algonquin Provincial Park. The cottage itself was like a dream. A wooden cabin, fire pit, a jetty...all over looking Lake Kawagama. We spent our afternoon kayaking and canoeing on the lake (the boys managed to sneak a beer on their kayaks) and a night drinking beers/wine around a fire pit.
 
