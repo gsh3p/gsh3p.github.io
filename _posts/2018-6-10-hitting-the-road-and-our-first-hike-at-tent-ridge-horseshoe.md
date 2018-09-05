@@ -4,7 +4,7 @@ title: Hitting the road and our first hike at Tent Ridge Horseshoe
 categories: Travel
 ---
 
-<p class="article-intro">After a few days in Calgary and stocking up on camping gear we were all set to hit the road. Our first stop was Bow Valley Campground, just outside of the small mountain town Canmore.</p>
+After a few days in Calgary and stocking up on camping gear we were all set to hit the road. Our first stop was Bow Valley Campground, just outside of the small mountain town Canmore.
 
 After a fairly sleepless first night our friends Robbie and Sarah met us at our site the following morning for a day of hiking.
 
