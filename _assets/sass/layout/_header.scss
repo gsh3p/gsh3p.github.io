@@ -4,11 +4,12 @@
 
 .main-header {
   border-bottom: 1px solid $lightGray;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   padding: 20px 0;
   text-align: center;
 
   @media screen and (min-width: $tablet){
+    margin-bottom: 50px;
     text-align: left;
   }
 }
