@@ -21,34 +21,56 @@
     font-weight: 300;
     margin-right: 20px;
     padding: 0 0 2px;
-    position: relative;;
+    position: relative;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+
+    &.main-nav__item {
+      &:before {
+        background-color: $red;
+        bottom: 0;
+        content: "";
+        height: 1.5px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+      }
+
+      &:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+      }
+
+    }
 
     &:last-child {
       margin-right: 0;
     }
 
-    &:before {
-      background-color: $red;
-      bottom: 0;
-      content: "";
-      height: 1.5px;
-      left: 0;
-      position: absolute;
-      width: 100%;
-      visibility: hidden;
-      -webkit-transform: scaleX(0);
-      transform: scaleX(0);
+    &.btn__sign-up {
+      color: #fff;
+      background: $red;
+      padding: 5px 10px;
       -webkit-transition: all 0.3s ease-in-out 0s;
       transition: all 0.3s ease-in-out 0s;
+
+      @media screen and (min-width: $tablet){
+
+      }
+
+      &:hover {
+        opacity: 0.8;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+        filter: alpha(opacity=80);
+      }
     }
 
-    &:hover:before {
-      visibility: visible;
-      -webkit-transform: scaleX(1);
-      transform: scaleX(1);
-    }
   }
 }
